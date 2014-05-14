@@ -96,7 +96,8 @@ suite if you do not have an AWS account as it runs on an EC2 instance
 License and Author
 ==================
 
-Author:: [Ross Timson][rosstimson] <[ross@rosstimson.com](ross@rosstimson.com)>
+Author:: [Ross Timson][rosstimson]
+<[ross@rosstimson.com](mailto:ross@rosstimson.com)>
 
 Copyright 2014, Ross Timson
 
