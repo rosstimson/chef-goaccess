@@ -14,4 +14,3 @@ gem 'unf' #Stop Fog (used by kitchen-ec2) complaining.
 gem 'guard', '~> 1.8'
 gem 'guard-rubocop', '~> 0.2'
 gem 'guard-foodcritic', '~> 1.0.2'
-gem 'stove', github: 'sethvargo/stove'
