@@ -18,6 +18,7 @@
 # limitations under the License.
 #
 
-default['goaccess']['version'] = '0.7.1'
-default['goaccess']['checksum'] = '04de880ebdedde8daeec6284783bd7f4b04d9149b08deaa5588e55f24739f49b' # rubocop:disable LineLength
+default['goaccess']['version'] = '0.8.4'
+default['goaccess']['checksum'] = '22f67dbbee05c695ce624e4664ef2274918366d2cde24784265c6f04c18a756a' # rubocop:disable LineLength
+default['goaccess']['url'] = 'http://tar.goaccess.io/'
 default['goaccess']['prefix'] = '/usr/local'
