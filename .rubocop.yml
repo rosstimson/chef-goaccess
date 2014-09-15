@@ -1,5 +1,14 @@
+AllCops:
+  Exclude:
+    - 'bin/*'
+
 LineLength:
   Max: 99
 
-MethodLength:
-  Max: 15
+SingleSpaceBeforeFirstArg:
+  Exclude:
+    - metadata.rb
+
+RegexpLiteral:
+  Exclude:
+    - Guardfile
