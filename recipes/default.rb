@@ -53,7 +53,7 @@ end
 tar_name = "goaccess-#{node['goaccess']['version']}"
 remote_file 'goaccess' do
   path "#{Chef::Config['file_cache_path']}/#{tar_name}.tar.gz"
-  source "#{node['goaccess']['url']}/#{tar_name}.tar.gz" # rubocop:disable LineLength
+  source "#{node['goaccess']['url']}/#{tar_name}.tar.gz"
   checksum node['goaccess']['checksum']
   notifies :run, 'bash[install_goaccess]', :immediately
 end
