@@ -57,7 +57,7 @@ describe 'goaccess::default' do
     let(:chef_run) { ChefSpec::Runner.new.converge(described_recipe) }
 
     it 'gets the remote tarball' do
-      expect(chef_run).to create_remote_file("#{Chef::Config['file_cache_path']}/goaccess-0.7.1.tar.gz") # rubocop:disable LineLength
+      expect(chef_run).to create_remote_file("#{Chef::Config['file_cache_path']}/goaccess-0.8.5.tar.gz") # rubocop:disable LineLength
     end
 
     it 'notifies install_goaccess' do

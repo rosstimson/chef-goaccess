@@ -15,6 +15,6 @@ describe 'compiles and installs goaccess' do
   # for the line that includes the version.
   describe command("/usr/local/bin/goaccess -h | grep 'GoAccess -'") do
     it { should return_exit_status 0 }
-    it { should return_stdout 'GoAccess - 0.7.1' }
+    it { should return_stdout 'GoAccess - 0.8.5' }
   end
 end
